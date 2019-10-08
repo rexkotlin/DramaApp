@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nameLabel"
+        style="@style/Drama.InfoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        tools:text="name"/>
+
+    <TextView
+        android:id="@+id/ratingLabel"
+        style="@style/Drama.InfoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="rating"/>
+    <TextView
+        android:id="@+id/createdatLabel"
+        style="@style/Drama.InfoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="created_at"/>
+    <TextView
+        android:id="@+id/totalviewsLabel"
+        style="@style/Drama.InfoTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="total_views"/>
+    <ImageView
+        android:id="@+id/dramaImg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        tools:src="@mipmap/ic_launcher"
+        tools:visibility="visible"/>
+
+</LinearLayout>

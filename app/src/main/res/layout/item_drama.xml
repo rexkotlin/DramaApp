@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="@color/background">
+
+        <TextView
+            android:id="@+id/dramaNameLabel"
+            style="@style/Drama.InfoTitle"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/dramaImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            tools:text="Name" />
+        <TextView
+            android:id="@+id/dramaRatingLabel"
+            android:layout_toRightOf="@+id/dramaImg"
+            android:layout_below="@+id/dramaNameLabel"
+            style="@style/Drama.InfoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            tools:text="Rating" />
+        <TextView
+            android:id="@+id/dramaCreatedatLabel"
+            android:layout_toRightOf="@+id/dramaImg"
+            android:layout_below="@+id/dramaRatingLabel"
+            style="@style/Drama.InfoTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            tools:text="title" />
+
+        <ImageView
+            android:id="@+id/dramaImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            />
+
+        <View
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/text_FFFFFF"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
